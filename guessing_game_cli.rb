@@ -5,7 +5,7 @@ number = rand(6) + 1
 input = gets.strip
 
   # compare the input and the number puts something based on comparison
-if number == input
+if number.to_s == input
   puts "You guessed the correct number!"
   
 elsif input == "exit"
