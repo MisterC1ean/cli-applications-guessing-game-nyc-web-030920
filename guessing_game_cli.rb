@@ -5,7 +5,7 @@ number = rand(6) + 1
 input = gets.chomp
 
   # compare the input and the number puts something based on comparison
-if number.to_s == input
+if number == input
   puts "You guessed the correct number!"
   
 elsif input == "exit"
