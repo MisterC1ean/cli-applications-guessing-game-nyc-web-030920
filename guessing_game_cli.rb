@@ -5,11 +5,11 @@ def run_guessing_game
 number = (rand(6) + 1)
 
 # Prompt to guess the number
-input = gets
+input = gets.chomp
 
 # compare the input and the number
 
-if number == input
+if number.to_s == input
   puts "You guessed the correct number!"
   
 elsif input == "exit"
