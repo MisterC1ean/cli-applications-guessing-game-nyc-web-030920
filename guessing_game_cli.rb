@@ -1,14 +1,10 @@
 require 'pry'
-# Code your solution here!
 def run_guessing_game
-# Generate and store a rand num btwn 1 & 6
-number = (rand(6) + 1)
-
-# Prompt to guess the number
+  # Generate and store a rand num btwn 1 & 6
+number = rand(6) + 1
 input = gets
 
-# compare the input and the number
-
+  # compare the input and the number puts something based on comparison
 if number == input
   puts "You guessed the correct number!"
   
