@@ -5,7 +5,7 @@ def run_guessing_game
 number = (rand(6) + 1)
 
 # Prompt to guess the number
-input = gets.chomp
+input = gets
 
 # compare the input and the number
 
