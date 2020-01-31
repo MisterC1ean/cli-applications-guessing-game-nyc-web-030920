@@ -9,7 +9,7 @@ input = gets
 
 # compare the input and the number
 
-if number.to_s == input
+if number == input
   puts "You guessed the correct number!"
   
 elsif input == "exit"
